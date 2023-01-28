@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <ng-container *ngFor="let item of bookList">
+      <div class="card col-md-3" routerLink="/hoteldetails/{{ item._id }}">
+        <img src="{{ item.image }}" alt="" />
+        <div class="card-body">
+          <h3 class="card-title">{{ item.title }}</h3>
+          <h4 class="card-location">{{ item.author }}</h4>
+          <p class="card-text">
+            {{ item.description }}
+          </p>
+          <h6 class="card-dy"></h6>
+          <button type="button" class="btn btn-primary">Booking</button>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

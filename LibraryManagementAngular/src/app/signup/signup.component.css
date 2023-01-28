@@ -1,0 +1,22 @@
+.signup {
+    min-height: 100vh;
+  }
+  
+.background-image {
+    background-image: url('https://mcdn.wallpapersafari.com/medium/26/52/2qecsg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+  
+.signup-heading {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    
+}
+  
+.btn-signup {
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    padding: 0.2rem 0.1rem;
+}

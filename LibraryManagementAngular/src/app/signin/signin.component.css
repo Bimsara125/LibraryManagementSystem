@@ -1,0 +1,22 @@
+.signin {
+    min-height: 100vh;
+  }
+  
+.background-image {
+    background-image: url('https://i0.wp.com/cms.babbel.news/wp-content/uploads/2022/01/Most_Beautiful_Libraries.png?resize=960%2C540/600x1200');
+    background-size: cover;
+    background-position: center;
+}
+  
+.signin-heading {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    
+}
+  
+.btn-signin {
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    padding: 0.2rem 0.1rem;
+}

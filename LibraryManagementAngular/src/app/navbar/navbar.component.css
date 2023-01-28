@@ -1,0 +1,67 @@
+body,a, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+}
+/* General */
+.title-logo { font-weight: 500 !important;}
+
+.text-title { color: #220e67 !important;}
+
+
+
+
+/* Nav */
+
+#main_nav a { color: #212934;}
+#main_nav a:hover { color: #441de2;}
+#main_nav .navbar .nav-icon { margin-right: 20px;}
+
+
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)*/
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #main_nav .navbar-nav {max-width: 450px;}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #main_nav .navbar-nav {max-width: 550px;}
+ 
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+.btn-profile{
+  border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    background-color: white;
+}

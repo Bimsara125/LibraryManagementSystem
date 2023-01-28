@@ -1,0 +1,85 @@
+<div class="container-fluid ps-md-0">
+  <div class="row g-0">
+    <div class="d-none d-md-flex col-md-4 col-lg-6 background-image"></div>
+    <div class="col-md-8 col-lg-6">
+      <div class="signup d-flex align-items-center py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-lg-8 mx-auto">
+              <h3 class="signup-heading mb-4"> Sign Up</h3>
+
+              <!-- Sign up Form -->
+              <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                <div class="mb-3">
+                  <label for="exampleInputname" class="form-label"
+                    >Full name</label
+                  >
+                  <input
+                    formControlName="fullname"
+                    type="text"
+                    class="form-control"
+                    id="exampleInputname"
+                    placeholder="John Doe"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    formControlName="email"
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputmobile" class="form-label"
+                    >Mobile Number</label
+                  >
+                  <input
+                    formControlName="mobile"
+                    type="number"
+                    class="form-control"
+                    id="exampleInputmobile"
+                    placeholder="+94 76 850 1694"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    formControlName="password"
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                    placeholder="Password"
+                  />
+                </div>
+
+                <div class="d-grid">
+                  <button
+                    class="btn btn-lg btn-primary btn-signup text-uppercase fw-bold mb-2"
+                    type="submit"
+                  >
+                    Sign up
+                  </button>
+
+                  <div class="form-link text-center">
+                    <span
+                      >Already have an account?
+                      <a routerLink="/signin">SignIn</a></span
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
